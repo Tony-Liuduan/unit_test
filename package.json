@@ -6,15 +6,16 @@
   "scripts": {
     "unit:init": "karma init",
     "unit:test": "karma start",
-    "ui:init:": "backstop init",
-    "ui:start:": "backstop test",
-    "e2e:start": "node ./tests/e2e/index.spec.js",
-    "service:start": "node ./mochaRunner.js"
+    "ui:init": "backstop init",
+    "ui:test": "backstop test",
+    "e2e:test": "node ./tests/e2e/index.spec.js",
+    "service:test": "node ./mochaRunner.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "backstopjs": "^4.5.0",
     "karma": "^4.4.1",
     "karma-coverage": "^2.0.1",
     "karma-jasmine": "^3.1.1",

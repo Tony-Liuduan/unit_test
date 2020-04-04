@@ -1,5 +1,5 @@
 function add(val) {
-    if (val === 3) {
+    if (val === 1) {
         return 1;
     }
 
