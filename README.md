@@ -22,7 +22,6 @@ npm install karma-coverage --save-dev
 ---
 
 # UI测试
-
 phantomcss
 backstopjs
 
@@ -41,4 +40,3 @@ rize.js
 nodejs api结果不符合
 
 mocha 测试异步接口测试
-# unit_test

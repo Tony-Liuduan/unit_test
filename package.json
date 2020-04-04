@@ -1,0 +1,30 @@
+{
+  "name": "unit_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "unit:init": "karma init",
+    "unit:test": "karma start",
+    "ui:init:": "backstop init",
+    "ui:start:": "backstop test",
+    "e2e:start": "node ./tests/e2e/index.spec.js",
+    "service:start": "node ./mochaRunner.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^4.4.1",
+    "karma-coverage": "^2.0.1",
+    "karma-jasmine": "^3.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "mocha": "^7.1.1",
+    "mochawesome": "^5.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "koa": "^2.11.0"
+  }
+}
