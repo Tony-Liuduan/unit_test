@@ -1,7 +1,6 @@
 const Mocha = require('mocha');
 const moment = require('moment');
 const path = require('path');
-const { exec } = require('child_process');
 
 const timestamp = moment().format('YYYY-MM-DD_HH:mm:ss');
 const reportDirName = 'mochawesome-report-' + timestamp;
